@@ -1,0 +1,102 @@
+.loading-con {
+  background-image: url(./img/街头.jpg);
+}
+.loading-text {
+  /* font-family: 方正; */
+  font-family: 凌厉;
+  font-size: 280px;
+}
+.loading-text.cloud {
+  background-image: url(./img/街头.jpg);
+}
+.background {
+  background-image: url(./img/街头.jpg);
+}
+.nav-box {
+  border: 2px solid rgba(211, 211, 211, 0.6);
+}
+.adding-box:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.adding-img {
+  background-image: url(./img/加减组件\ 加号.png);
+}
+.newtalk {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 2px solid rgba(211, 211, 211, 0.6);
+  color: rgba(255, 197, 178, 0.9);
+}
+.delete {
+  /* background-color: rgba(223, 170, 126, 0.6); */
+  background-color: rgba(250, 250, 210, 0.6);
+}
+.delete:hover {
+  background-color: rgba(240, 128, 128, 0.6);
+}
+.newtalk.catch {
+  background-color: rgb(32, 32, 32, 0.8);
+  color: lightgoldenrodyellow;
+}
+.newtalk.hover {
+  background-color: rgb(50, 50, 50, 0.7);
+}
+.setting-img {
+  background-image: url(./img/齿轮.png);
+}
+.main-box {
+  border: 2px solid rgba(211, 211, 211, 0.6);
+}
+.head-con {
+  background-color: rgba(255, 255, 255, 0.169);
+}
+.talking.left {
+  border: 1px solid rgba(156, 156, 156, 0.5);
+  /* background-color: rgba(74, 74, 74, 0.5); */
+  color: lightgoldenrodyellow;
+}
+.talking.right {
+  background-color: rgba(255, 255, 255, 0.169);
+  border: 2px solid rgba(245, 245, 245, 0.5);
+  color: whitesmoke;
+}
+.user {
+  background-image: url(./img/stars.jpg);
+}
+.clearbutton {
+  background-color: rgba(255, 255, 255, 0.169);
+  border: 2px solid rgba(211, 211, 211, 0.6);
+}
+.clearbutton:hover {
+  background-color: transparent;
+  color: whitesmoke;
+}
+.search-con {
+  background-color: transparent;
+  border: 3px solid rgba(255, 255, 255, 0.5);
+}
+#user-input {
+  background-color: transparent;
+  color: whitesmoke;
+}
+#user-input:focus {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+::-webkit-input-placeholder {
+  color: whitesmoke;
+}
+#send {
+  color: whitesmoke;
+  background-color: rgb(32, 32, 32, 0.7);
+  border: none;
+}
+#send:hover {
+  box-shadow: 1px 2px 5px white;
+  color: rgb(221, 221, 173);
+}
+.set.head {
+  background-color: transparent;
+  border: 4px solid rgba(255, 255, 255, 0.5);
+}
+.set.head:hover {
+  background-color: transparent;
+}

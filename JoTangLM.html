@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JoTangLM</title>
+    <link rel="icon" href="./pretty/img/漩涡.png" type="image/gif" />
+    <link rel="stylesheet" href="./pretty/Jotang.css" />
+    <link id="themestyle" rel="stylesheet" href="./pretty/默认.css" />
+    <!-- <link id="themestyle" rel="stylesheet" href="./pretty/镜头.css" /> -->
+  </head>
+  <!-- 为方便区分，仅做容器效果，并不实际显示的盒子用box命名，既做容器又显示的使用con（container） -->
+  <!-- 想法虽好，但随着后来各种改动已经崩坏了————10/18留 -->
+  <body>
+    <div class="loading-box">
+      <div class="loading-con">
+        <div class="loading-text">JotangLM</div>
+        <p class="loading-sign">— scroll down to begin —</p>
+      </div>
+    </div>
+    <div class="largest-box">
+      <!-- 页面加载动画容器 -->
+      <div class="name">
+        <p class="clickname">"JoTangLM"</p>
+        <img src="./pretty/img/焦糖logo3.png" />
+      </div>
+      <div class="background">
+        <div class="nav-box mainborder">
+          <div class="adding-box" id="creattalk">
+            <div class="adding-img adding"></div>
+          </div>
+          <div class="newtalk-box">
+            <div class="newtalk catch" id="origin">Chat 1</div>
+            <div class="delete" id="origindele"></div>
+          </div>
+          <div class="setting-box">
+            <div class="setting-img adding"></div>
+          </div>
+        </div>
+        <div class="main-box mainborder">
+          <!-- 执行对话部分 -->
+          <div class="talk-box">
+            <div class="head-con one"></div>
+            <div class="talk">
+              <div class="talkingcon left">
+                <div class="robot"></div>
+                <p class="talking left">
+                  你好，我是焦糖小助手，请问有什么可以帮到你的吗？
+                </p>
+              </div>
+            </div>
+            <div class="head-con two"></div>
+          </div>
+          <!-- 底部栏 -->
+          <div class="bottom">
+            <div class="set clear">
+              <div class="clearbutton">CLEAR</div>
+            </div>
+            <div class="search-con mainborder">
+              <input
+                type="text"
+                id="user-input"
+                placeholder="Say what you want..."
+              />
+              <button id="send">发送</button>
+            </div>
+            <div class="set head">
+              <div class="logo one"></div>
+              <div class="logo two"></div>
+              <div class="logo three"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./pretty/Jotang.js"></script>
+  </body>
+</html>

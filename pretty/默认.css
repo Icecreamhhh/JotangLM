@@ -1,0 +1,99 @@
+.loading-con {
+  background-image: url(./img/蓝天和云.jpg);
+}
+.loading-text {
+  font-family: 方正;
+}
+.loading-text.cloud {
+  background-image: url(./img/大云朵.jpg);
+}
+.background {
+  background-image: url(./img/蓝天和云.jpg);
+}
+.nav-box {
+  border: 2px solid lightgray;
+}
+.adding-box:hover {
+  background-color: rgba(255, 255, 255, 0.424);
+}
+.adding-img {
+  background-image: url(./img/加减组件\ 加号.png);
+  /* background-image: url(./img/黑色加号.png); */
+}
+.newtalk {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 2px solid lightgray;
+  color: whitesmoke;
+}
+.delete {
+  background-color: whitesmoke;
+}
+.delete:hover {
+  background-color: lightcoral;
+}
+.newtalk.catch {
+  background-color: whitesmoke;
+  color: rgb(61, 143, 202);
+}
+.newtalk.hover {
+  background-color: rgb(61, 143, 202);
+}
+.setting-img {
+  background-image: url(./img/齿轮.png);
+  /* background-image: url(./img/设置黑色.png); */
+}
+.main-box {
+  border: 2px solid lightgray;
+}
+.head-con {
+  background-color: rgba(255, 255, 255, 0.169);
+}
+.talking.left {
+  background-color: whitesmoke;
+}
+.talking.right {
+  background-color: rgb(61, 143, 202);
+  border: 2px solid rgba(245, 245, 245, 0.5);
+  color: whitesmoke;
+}
+.user {
+  background-image: url(./img/焦糖之爱.jpg);
+}
+.clearbutton {
+  background-color: rgba(255, 255, 255, 0.169);
+  border: 2px solid lightgray;
+}
+.clearbutton:hover {
+  background-color: rgb(61, 143, 202);
+  color: whitesmoke;
+}
+.search-con {
+  background-color: rgba(245, 245, 245, 0.5);
+  border: 3px solid rgba(255, 255, 255, 0.5);
+}
+#user-input {
+  background-color: rgba(245, 245, 245);
+  color: whitesmoke;
+}
+#user-input:focus {
+  background-color: rgba(61, 143, 202);
+}
+::-webkit-input-placeholder {
+  color: rgba(61, 143, 202);
+}
+#send {
+  color: whitesmoke;
+  background-color: rgba(63, 153, 218, 0.7);
+  border: none;
+}
+#send:hover {
+  background-color: rgba(72, 178, 254, 0.836);
+  box-shadow: 1px 2px 5px white;
+}
+.set.head {
+  background-color: transparent;
+  border: 4px solid lightgray;
+}
+.set.head:hover {
+  background-color: rgba(61, 143, 202);
+}
